@@ -1,80 +1,80 @@
 <!doctype html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>How to Draw</title>
+    <title>Leren Tekenen</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <header>
-      <h1>How to Draw</h1>
-      <p>Step-by-step drawing lessons for kids and beginners.</p>
+      <h1>Leren Tekenen</h1>
+      <p>Stap-voor-stap tekenlessen voor kinderen en beginners.</p>
     </header>
 
     <main>
-      <section class="panel controls" aria-label="Lesson controls">
+      <section class="panel controls" aria-label="Lesbediening">
         <label>
-          Search
-          <input id="searchInput" type="search" placeholder="Try cat, rocket, panda..." />
+          Zoeken
+          <input id="searchInput" type="search" placeholder="Probeer kat, raket, panda..." />
         </label>
 
         <label>
-          Category
+          Categorie
           <select id="categoryFilter">
-            <option value="all">All categories</option>
-            <option value="animals">Animals</option>
-            <option value="objects">Objects</option>
-            <option value="characters">Characters</option>
+            <option value="all">Alle categorieën</option>
+            <option value="animals">Dieren</option>
+            <option value="objects">Voorwerpen</option>
+            <option value="characters">Personages</option>
           </select>
         </label>
 
         <label>
-          Difficulty
+          Moeilijkheid
           <select id="difficultyFilter">
-            <option value="all">All levels</option>
-            <option value="easy">Easy</option>
-            <option value="medium">Medium</option>
-            <option value="hard">Hard</option>
+            <option value="all">Alle niveaus</option>
+            <option value="easy">Makkelijk</option>
+            <option value="medium">Gemiddeld</option>
+            <option value="hard">Moeilijk</option>
           </select>
         </label>
       </section>
 
-      <section class="panel" aria-label="Learning summary">
-        <h2>Learning summary</h2>
+      <section class="panel" aria-label="Leeroverzicht">
+        <h2>Leeroverzicht</h2>
         <div class="summary-grid">
-          <p>Lessons completed: <strong id="completedCount">0</strong></p>
-          <p>Current streak: <strong id="streakCount">0</strong> day(s)</p>
-          <p>Badges: <strong id="badgeList">None yet</strong></p>
-          <p>Next suggestion: <strong id="recommendation">Choose a lesson</strong></p>
+          <p>Voltooide lessen: <strong id="completedCount">0</strong></p>
+          <p>Huidige reeks: <strong id="streakCount">0</strong> dag(en)</p>
+          <p>Badges: <strong id="badgeList">Nog geen</strong></p>
+          <p>Volgende suggestie: <strong id="recommendation">Kies een les</strong></p>
         </div>
       </section>
 
       <section class="layout">
-        <section class="panel" aria-label="Lesson library">
-          <h2>Lesson library</h2>
+        <section class="panel" aria-label="Lesbibliotheek">
+          <h2>Lesbibliotheek</h2>
           <div id="lessonList" class="lesson-list"></div>
         </section>
 
-        <section class="panel" aria-label="Lesson details">
-          <h2 id="lessonTitle">Select a lesson</h2>
-          <p id="lessonMeta">Pick a lesson to begin.</p>
+        <section class="panel" aria-label="Lesdetails">
+          <h2 id="lessonTitle">Kies een les</h2>
+          <p id="lessonMeta">Kies een les om te beginnen.</p>
           <p id="lessonMaterials"></p>
-          <img id="lessonImage" alt="Reference" hidden />
+          <img id="lessonImage" alt="Referentie" hidden />
           <ol id="lessonSteps"></ol>
           <p id="lessonTips"></p>
           <div class="actions">
-            <button id="favoriteButton" disabled>Add to favorites</button>
-            <button id="completeStepButton" disabled>Mark current step complete</button>
-            <button id="completeLessonButton" disabled>Finish lesson</button>
+            <button id="favoriteButton" disabled>Toevoegen aan favorieten</button>
+            <button id="completeStepButton" disabled>Huidige stap als voltooid markeren</button>
+            <button id="completeLessonButton" disabled>Les afronden</button>
           </div>
         </section>
       </section>
 
-      <section class="panel" aria-label="Favorites and recently viewed">
-        <h2>Quick access</h2>
-        <p><strong>Favorites:</strong> <span id="favoritesList">None yet</span></p>
-        <p><strong>Recently viewed:</strong> <span id="recentList">None yet</span></p>
+      <section class="panel" aria-label="Favorieten en recent bekeken">
+        <h2>Snelle toegang</h2>
+        <p><strong>Favorieten:</strong> <span id="favoritesList">Nog geen</span></p>
+        <p><strong>Recent bekeken:</strong> <span id="recentList">Nog geen</span></p>
       </section>
     </main>
 
