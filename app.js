@@ -93,18 +93,25 @@ function renderLessonList() {
     const wrapper = document.createElement("article");
     wrapper.className = "lesson-card";
     const done = state.completedLessons.includes(lesson.id) ? "✅" : "";
-    wrapper.innerHTML = `
-      <h3>${lesson.title} ${done}</h3>
-      <p>${lesson.category} • ${lesson.difficulty}</p>
-      <p>${lesson.steps.length} steps</p>
-      <button data-lesson-id="${lesson.id}">Open lesson</button>
-    `;
+    const title = document.createElement("h3");
+    title.textContent = `${lesson.title} ${done}`.trim();
+
+    const meta = document.createElement("p");
+    meta.textContent = `${lesson.category} • ${lesson.difficulty}`;
+
+    const stepCount = document.createElement("p");
+    stepCount.textContent = `${lesson.steps.length} steps`;
+
+    const openButton = document.createElement("button");
+    openButton.dataset.lessonId = lesson.id;
+    openButton.textContent = "Open lesson";
+
+    wrapper.appendChild(title);
+    wrapper.appendChild(meta);
+    wrapper.appendChild(stepCount);
+    wrapper.appendChild(openButton);
     els.lessonList.appendChild(wrapper);
   }
-
-  els.lessonList.querySelectorAll("button[data-lesson-id]").forEach((button) => {
-    button.addEventListener("click", () => selectLesson(button.dataset.lessonId));
-  });
 }
 
 function updateRecentlyViewed(lessonId) {
@@ -146,6 +153,7 @@ function renderSelectedLesson() {
 
   if (lesson.referenceImage) {
     els.lessonImage.src = lesson.referenceImage;
+    els.lessonImage.alt = `${lesson.title} reference image`;
     els.lessonImage.hidden = false;
   } else {
     els.lessonImage.hidden = true;
@@ -155,16 +163,23 @@ function renderSelectedLesson() {
   lesson.steps.forEach((step, index) => {
     const li = document.createElement("li");
     li.textContent = step;
-    if (index < currentStep) li.classList.add("completed-step");
-    if (index === currentStep) li.classList.add("current-step");
+    if (index < currentStep) {
+      li.classList.add("completed-step");
+      li.setAttribute("aria-description", "completed");
+    }
+    if (index === currentStep) {
+      li.classList.add("current-step");
+      li.setAttribute("aria-current", "step");
+    }
     els.lessonSteps.appendChild(li);
   });
 
   const favorite = state.favorites.includes(lesson.id);
+  const isCompleted = currentStep >= lesson.steps.length;
   els.favoriteButton.textContent = favorite ? "Remove favorite" : "Add to favorites";
   els.favoriteButton.disabled = false;
-  els.completeStepButton.disabled = false;
-  els.completeLessonButton.disabled = false;
+  els.completeStepButton.disabled = isCompleted;
+  els.completeLessonButton.disabled = isCompleted;
 }
 
 function markStepComplete() {
@@ -184,8 +199,18 @@ function markStepComplete() {
 }
 
 function updateStreak() {
-  const today = new Date().toISOString().slice(0, 10);
-  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+  const formatLocalDate = (date) =>
+    [
+      date.getFullYear(),
+      String(date.getMonth() + 1).padStart(2, "0"),
+      String(date.getDate()).padStart(2, "0"),
+    ].join("-");
+
+  const now = new Date();
+  const today = formatLocalDate(now);
+  const previousDate = new Date(now);
+  previousDate.setDate(previousDate.getDate() - 1);
+  const yesterday = formatLocalDate(previousDate);
 
   if (state.streak.lastDate === today) return;
   if (state.streak.lastDate === yesterday) {
@@ -203,9 +228,9 @@ function completeLesson() {
   state.stepProgress[lesson.id] = lesson.steps.length;
   if (!state.completedLessons.includes(lesson.id)) {
     state.completedLessons.push(lesson.id);
+    updateStreak();
   }
 
-  updateStreak();
   persistState();
   applyFilters();
   renderLessonList();
@@ -271,15 +296,20 @@ function renderSummary() {
 }
 
 function wireEvents() {
-  [els.searchInput, els.categoryFilter, els.difficultyFilter].forEach((input) => {
-    input.addEventListener("input", () => {
-      applyFilters();
-      renderLessonList();
-    });
-    input.addEventListener("change", () => {
-      applyFilters();
-      renderLessonList();
-    });
+  const rerenderFilteredLessons = () => {
+    applyFilters();
+    renderLessonList();
+  };
+
+  els.searchInput.addEventListener("input", rerenderFilteredLessons);
+
+  [els.categoryFilter, els.difficultyFilter].forEach((select) => {
+    select.addEventListener("change", rerenderFilteredLessons);
+  });
+  els.lessonList.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-lesson-id]");
+    if (!button) return;
+    selectLesson(button.dataset.lessonId);
   });
 
   els.completeStepButton.addEventListener("click", markStepComplete);
@@ -289,8 +319,18 @@ function wireEvents() {
 
 async function init() {
   loadStoredState();
-  const response = await fetch("/data/lessons.json");
-  state.lessons = await response.json();
+  try {
+    const response = await fetch("/data/lessons.json");
+    if (!response.ok) {
+      throw new Error(`Failed to load lessons (${response.status})`);
+    }
+    state.lessons = await response.json();
+  } catch (error) {
+    els.lessonList.textContent = "Could not load lessons. Please refresh and try again.";
+    els.lessonMeta.textContent = "Lesson data unavailable.";
+    console.error(error);
+    return;
+  }
   applyFilters();
   renderLessonList();
   renderSelectedLesson();

@@ -16,7 +16,7 @@ A beginner-friendly web app that teaches kids and new artists how to draw with s
 The UI is intentionally simple and distraction-free.
 
 ## Content model
-Each lesson follows a consistent structure in `/home/runner/work/how-to-draw/how-to-draw/data/lessons.json`:
+Each lesson follows a consistent structure in `data/lessons.json`:
 - `id`
 - `title`
 - `category`
@@ -27,7 +27,7 @@ Each lesson follows a consistent structure in `/home/runner/work/how-to-draw/how
 - `tips`
 
 ## Initial lesson library
-The app includes a curated starter set of 12 lessons across:
+The app includes a curated starter set of lessons across:
 - Easy
 - Medium
 - Hard
@@ -75,7 +75,7 @@ The included lessons follow these standards:
 - CMS-backed authoring workflow for scaling content updates
 
 ## Running locally
-From `/home/runner/work/how-to-draw/how-to-draw`, serve the files with any static server, for example:
+From the project root, serve the files with any static server, for example:
 
 ```bash
 python3 -m http.server 8000
