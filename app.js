@@ -1,8 +1,8 @@
 const STORAGE_KEY = "howToDrawState";
 const CATEGORY_LABELS = {
-  animals: "Dieren",
-  objects: "Voorwerpen",
+  faces: "Gezichten",
   characters: "Personages",
+  scenes: "Scènes",
 };
 const DIFFICULTY_LABELS = {
   easy: "Makkelijk",
