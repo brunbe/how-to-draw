@@ -1,194 +1,130 @@
 [
   {
-    "id": "animal-cat",
-    "title": "Draw a Cat",
-    "category": "animals",
+    "id": "face-manga-eye",
+    "title": "Draw a Manga Eye",
+    "category": "faces",
     "difficulty": "easy",
     "materials": ["pencil", "eraser", "paper"],
-    "referenceImage": "https://images.unsplash.com/photo-1511044568932-338cba0ad803?w=800",
+    "referenceImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800",
     "steps": [
-      "Sketch a circle for the head and an oval for the body.",
-      "Add triangle ears and light guidelines for the face.",
-      "Draw simple eyes, nose, mouth, and whiskers.",
-      "Add legs and a curved tail.",
-      "Darken final lines and erase guides."
+      "Lightly sketch a tilted almond shape for the eye outline.",
+      "Add a thick upper lash line and a thinner lower line.",
+      "Draw a large iris circle that touches the top lash.",
+      "Place one big highlight and one small highlight in the iris.",
+      "Shade the iris darker at the top and lighter at the bottom."
     ],
-    "tips": "Keep your first lines light so they are easy to erase."
+    "tips": "Keep the highlights clean and unshaded to make the eye feel alive."
   },
   {
-    "id": "animal-fish",
-    "title": "Draw a Fish",
-    "category": "animals",
+    "id": "face-anime-nose-mouth",
+    "title": "Draw a Simple Manga Nose and Mouth",
+    "category": "faces",
     "difficulty": "easy",
-    "materials": ["pencil", "colored pencils", "paper"],
-    "referenceImage": "https://images.unsplash.com/photo-1524704796725-9fc3044a58b2?w=800",
+    "materials": ["pencil", "paper"],
+    "referenceImage": "https://images.unsplash.com/photo-1512317049220-d3c6fcaf6681?w=800",
     "steps": [
-      "Draw a sideways oval for the fish body.",
-      "Add a triangle tail connected to the oval.",
-      "Sketch top and bottom fins.",
-      "Draw a small eye and curved smile.",
-      "Add scales with light repeating arcs."
+      "Mark a short center guideline for face symmetry.",
+      "Place a tiny angled mark for the nose near the face center.",
+      "Draw a short curved line for a relaxed manga smile.",
+      "Add a second subtle line under the mouth for the lower lip hint.",
+      "Erase extra guide marks so the features stay clean and minimal."
     ],
-    "tips": "Repeat simple shapes for scales instead of aiming for perfect detail."
+    "tips": "In manga style, less detail on the nose and mouth often looks better."
   },
   {
-    "id": "animal-panda",
-    "title": "Draw a Panda",
-    "category": "animals",
-    "difficulty": "medium",
-    "materials": ["pencil", "black marker", "paper"],
-    "referenceImage": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800",
-    "steps": [
-      "Draw a large circle for the panda head.",
-      "Add two round ears and a small oval snout.",
-      "Draw big eye patches and place eyes inside.",
-      "Sketch a rounded body and short limbs.",
-      "Fill the ears, eye patches, and limbs with dark shading."
-    ],
-    "tips": "Use soft shading to create fluffy fur texture."
-  },
-  {
-    "id": "object-house",
-    "title": "Draw a Simple House",
-    "category": "objects",
+    "id": "character-chibi-head",
+    "title": "Draw a Chibi Head",
+    "category": "characters",
     "difficulty": "easy",
-    "materials": ["pencil", "ruler", "paper"],
-    "referenceImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800",
-    "steps": [
-      "Draw a square for the main house shape.",
-      "Add a triangle roof on top.",
-      "Sketch a centered door and two windows.",
-      "Draw roof lines and a chimney.",
-      "Add ground, path, and simple details."
-    ],
-    "tips": "Use a ruler if you want neat straight lines."
-  },
-  {
-    "id": "object-rocket",
-    "title": "Draw a Rocket",
-    "category": "objects",
-    "difficulty": "medium",
-    "materials": ["pencil", "eraser", "markers"],
-    "referenceImage": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800",
-    "steps": [
-      "Draw a tall capsule shape for the rocket body.",
-      "Add side fins near the bottom.",
-      "Sketch a circular window near the top.",
-      "Draw flame shapes under the rocket.",
-      "Add stars or clouds for a fun background."
-    ],
-    "tips": "Mirror the left and right fins to keep the rocket balanced."
-  },
-  {
-    "id": "object-bicycle",
-    "title": "Draw a Bicycle",
-    "category": "objects",
-    "difficulty": "hard",
     "materials": ["pencil", "eraser", "paper"],
-    "referenceImage": "https://images.unsplash.com/photo-1471506480208-91b3a4cc78be?w=800",
+    "referenceImage": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800",
     "steps": [
-      "Draw two equal circles for the wheels.",
-      "Connect wheels with a triangular frame.",
-      "Add handlebars, seat, and front fork.",
-      "Sketch pedals and chain area.",
-      "Refine with spokes and erase extra guidelines."
+      "Sketch a large circle for the cranium.",
+      "Add a small jaw shape under the circle for a cute face base.",
+      "Draw a vertical and horizontal guideline cross on the face.",
+      "Place oversized eyes below the horizontal guide and a tiny mouth.",
+      "Add simple bangs and erase guide lines."
     ],
-    "tips": "Measure spacing between wheels first for better proportions."
+    "tips": "A chibi head usually looks best when the eyes take up lots of space."
   },
   {
-    "id": "character-robot",
-    "title": "Draw a Friendly Robot",
+    "id": "character-chibi-body",
+    "title": "Draw a Chibi Body Pose",
     "category": "characters",
-    "difficulty": "easy",
-    "materials": ["pencil", "markers", "paper"],
-    "referenceImage": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800",
+    "difficulty": "medium",
+    "materials": ["pencil", "eraser", "paper"],
+    "referenceImage": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800",
     "steps": [
-      "Draw a square head and rectangle body.",
-      "Add circular eyes and a simple smile.",
-      "Sketch tube-like arms and legs.",
-      "Add antenna and chest buttons.",
-      "Outline and color metallic sections."
+      "Draw a short bean-like torso under your chibi head.",
+      "Add simple tube arms and legs with rounded ends.",
+      "Pose one arm up and one leg forward for motion.",
+      "Sketch oversized sleeves and short boots.",
+      "Refine the silhouette with confident final lines."
     ],
-    "tips": "Use repeated geometric shapes to keep the robot design consistent."
+    "tips": "Keep limbs short and chunky to preserve the chibi look."
   },
   {
-    "id": "character-dragon",
-    "title": "Draw a Cartoon Dragon",
-    "category": "characters",
-    "difficulty": "hard",
-    "materials": ["pencil", "eraser", "colored pencils"],
-    "referenceImage": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800",
-    "steps": [
-      "Sketch a curved line for the dragon spine.",
-      "Add a rounded head with horns and snout.",
-      "Draw a plump body and four short legs.",
-      "Add wings using triangle-like membranes.",
-      "Finish with tail spikes and light shading."
-    ],
-    "tips": "Keep the body simple first, then add fantasy details last."
-  },
-  {
-    "id": "character-astronaut",
-    "title": "Draw an Astronaut",
+    "id": "character-manga-hair",
+    "title": "Draw Manga Hair Strands",
     "category": "characters",
     "difficulty": "medium",
     "materials": ["pencil", "black pen", "paper"],
-    "referenceImage": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800",
+    "referenceImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800",
     "steps": [
-      "Draw a circle helmet and visor shape.",
-      "Sketch a small body suit under the helmet.",
-      "Add gloves, boots, and backpack.",
-      "Draw suit seams and panel details.",
-      "Add stars and a moon background."
+      "Block in the full hair shape like a helmet around the head.",
+      "Split the shape into big strand groups starting at the part.",
+      "Add pointed strand tips with quick curved strokes.",
+      "Ink the outer silhouette thicker than inner strand lines.",
+      "Shade under bangs and near roots to create depth."
     ],
-    "tips": "Round corners on the suit to make it look padded."
+    "tips": "Think in big strand groups first, then add a few detail lines."
   },
   {
-    "id": "animal-butterfly",
-    "title": "Draw a Butterfly",
-    "category": "animals",
-    "difficulty": "medium",
-    "materials": ["pencil", "eraser", "colored pencils"],
-    "referenceImage": "https://images.unsplash.com/photo-1472994252676-9ad2c5e6a4e6?w=800",
-    "steps": [
-      "Draw a thin body line with a small head.",
-      "Sketch two large top wings.",
-      "Add two smaller bottom wings.",
-      "Draw mirrored patterns on both sides.",
-      "Color with bright gradients and dots."
-    ],
-    "tips": "Fold the wing layout mentally in half to keep both sides symmetrical."
-  },
-  {
-    "id": "object-mug",
-    "title": "Draw a Coffee Mug",
-    "category": "objects",
+    "id": "scene-speed-lines",
+    "title": "Draw Manga Speed Lines",
+    "category": "scenes",
     "difficulty": "easy",
-    "materials": ["pencil", "paper"],
-    "referenceImage": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800",
+    "materials": ["pencil", "ruler", "black marker"],
+    "referenceImage": "https://images.unsplash.com/photo-1493612276216-ee3925520721?w=800",
     "steps": [
-      "Draw an oval for the mug opening.",
-      "Extend two vertical sides downward.",
-      "Close the bottom with a curved line.",
-      "Add a C-shaped handle on one side.",
-      "Draw steam lines and simple shading."
+      "Pick a focal point where the action is happening.",
+      "Use a ruler to draw long lines radiating from that point.",
+      "Vary spacing so some areas are dense and others open.",
+      "Thicken a few key lines to increase impact.",
+      "Leave the character area clearer so the figure stays readable."
     ],
-    "tips": "Keep top and bottom curves parallel for a realistic cup form."
+    "tips": "Speed lines work best when they support the character, not cover them."
   },
   {
-    "id": "character-fox",
-    "title": "Draw a Cute Fox",
-    "category": "characters",
-    "difficulty": "medium",
-    "materials": ["pencil", "orange marker", "paper"],
-    "referenceImage": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=800",
+    "id": "scene-action-panel",
+    "title": "Draw a Manga Action Panel",
+    "category": "scenes",
+    "difficulty": "hard",
+    "materials": ["pencil", "fineliner", "paper"],
+    "referenceImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800",
     "steps": [
-      "Draw a rounded triangle for the fox head.",
-      "Add pointy ears and fluffy cheek lines.",
-      "Sketch almond eyes and a tiny nose.",
-      "Draw a sitting body and bushy tail.",
-      "Color orange and leave tail tip white."
+      "Sketch a tilted panel border for dramatic composition.",
+      "Place a dynamic stick figure line-of-action through the frame.",
+      "Build the character over that line with rough body forms.",
+      "Add impact effects like burst shapes and debris marks.",
+      "Ink final contours and keep the background minimal for focus."
     ],
-    "tips": "Use short strokes around cheeks and tail for fluffy texture."
+    "tips": "A strong line-of-action makes even simple poses feel energetic."
+  },
+  {
+    "id": "scene-expression-sheet",
+    "title": "Draw Manga Expressions Sheet",
+    "category": "faces",
+    "difficulty": "hard",
+    "materials": ["pencil", "eraser", "paper"],
+    "referenceImage": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800",
+    "steps": [
+      "Draw four matching face circles in a grid.",
+      "Add the same eye placement guides in each face.",
+      "Draw happy, angry, sad, and surprised eyebrow shapes.",
+      "Change eye and mouth shapes to match each emotion.",
+      "Clean lines and label each expression for practice review."
+    ],
+    "tips": "Keep the head structure consistent so emotion changes are easier to compare."
   }
 ]
