@@ -101,15 +101,14 @@ function renderLessonList() {
 
   function stepVisualMarkup(instruction, stepNumber) {
     const text = instruction.toLowerCase();
-    const hasEye = text.includes("eye") || text.includes("iris");
-    const hasHair = text.includes("hair") || text.includes("bang");
+    const hasEye = text.includes("oog") || text.includes("iris") || text.includes("wimper");
+    const hasHair = text.includes("haar") || text.includes("pony") || text.includes("pluk");
     const hasAction =
-      text.includes("action") ||
-      text.includes("speed line") ||
-      text.includes("radiating") ||
-      text.includes("burst") ||
+      text.includes("actie") ||
+      text.includes("bewegingslijn") ||
+      text.includes("uitbarsting") ||
       text.includes("impact");
-    const hasBody = text.includes("body") || text.includes("arm") || text.includes("leg") || text.includes("pose");
+    const hasBody = text.includes("lichaam") || text.includes("arm") || text.includes("been") || text.includes("houding");
     const STEP_ACCENT_COLUMNS = 5;
     const STEP_ACCENT_START_X = 16;
     const STEP_ACCENT_GAP_X = 32;
@@ -161,7 +160,7 @@ function renderLessonList() {
   }
 
   function generateStepVisual(stepInstruction, stepNumber) {
-    const label = escapeXml(`STEP ${stepNumber}`);
+    const label = escapeXml(`STAP ${stepNumber}`);
     const body = stepVisualMarkup(stepInstruction, stepNumber);
     return `data:image/svg+xml,${encodeURIComponent(
       `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 112">
@@ -252,7 +251,7 @@ function renderSelectedLesson() {
     const img = document.createElement("img");
     img.className = "step-visual";
     img.src = visualImage;
-    img.alt = `Step ${index + 1}: ${instruction}`;
+    img.alt = `Stap ${index + 1}: ${instruction}`;
     img.width = 176;
     img.height = 112;
     const text = document.createElement("p");
@@ -419,7 +418,7 @@ async function init() {
   try {
     const response = await fetch("/data/lessons.json");
     if (!response.ok) {
-      throw new Error(`Failed to load lessons (${response.status})`);
+      throw new Error(`Lessen konden niet worden geladen (${response.status})`);
     }
     state.lessons = await response.json();
   } catch (error) {

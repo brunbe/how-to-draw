@@ -1,161 +1,130 @@
 [
   {
     "id": "face-manga-eye",
-    "title": "Draw a Manga Eye",
+    "title": "Teken een manga-oog",
     "category": "faces",
-    "difficulty": "easy",
-    "materials": [
-      "pencil",
-      "eraser",
-      "paper"
-    ],
-    "referenceImage": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22%23fff9f0%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%2224%22%20font-family%3D%22Arial%22%20font-size%3D%2214%22%20fill%3D%22%237c2d12%22%20text-anchor%3D%22middle%22%20font-weight%3D%22bold%22%3EDraw%20a%20Manga%20Eye%3C/text%3E%0A%20%20%3C%21--%20eye%20outline%20almond%20--%3E%0A%20%20%3Cpath%20d%3D%22M80%20125%20Q200%2060%20320%20125%20Q200%20190%2080%20125Z%22%20fill%3D%22%23fff%22%20stroke%3D%22%23111%22%20stroke-width%3D%224%22/%3E%0A%20%20%3C%21--%20iris%20--%3E%0A%20%20%3Ccircle%20cx%3D%22200%22%20cy%3D%22125%22%20r%3D%2244%22%20fill%3D%22%235b7ab5%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3C%21--%20pupil%20--%3E%0A%20%20%3Ccircle%20cx%3D%22200%22%20cy%3D%22125%22%20r%3D%2224%22%20fill%3D%22%23111%22/%3E%0A%20%20%3C%21--%20big%20highlight%20--%3E%0A%20%20%3Cellipse%20cx%3D%22178%22%20cy%3D%22108%22%20rx%3D%2214%22%20ry%3D%2210%22%20fill%3D%22%23fff%22/%3E%0A%20%20%3C%21--%20small%20highlight%20--%3E%0A%20%20%3Ccircle%20cx%3D%22214%22%20cy%3D%22138%22%20r%3D%226%22%20fill%3D%22%23fff%22%20opacity%3D%220.8%22/%3E%0A%20%20%3C%21--%20upper%20lash%20line%20thick%20--%3E%0A%20%20%3Cpath%20d%3D%22M80%20125%20Q200%2058%20320%20125%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%228%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20lashes%20--%3E%0A%20%20%3Cpath%20d%3D%22M100%20118%20L86%2098%20M130%20104%20L122%2082%20M160%2096%20L156%2074%20M200%2093%20L200%2070%20M240%2096%20L244%2074%20M270%20104%20L278%2082%20M300%20118%20L314%2098%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20lower%20lash%20line%20thin%20--%3E%0A%20%20%3Cpath%20d%3D%22M80%20125%20Q200%20175%20320%20125%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3C%21--%20iris%20shading%20arc%20--%3E%0A%20%20%3Cpath%20d%3D%22M162%20100%20Q200%2088%20238%20100%22%20fill%3D%22none%22%20stroke%3D%22%232a3a6b%22%20stroke-width%3D%2212%22%20opacity%3D%220.5%22/%3E%0A%3C/svg%3E",
+    "difficulty": "medium",
+    "materials": ["potlood", "gum", "papier"],
+    "referenceImage": null,
     "steps": [
-      "Lightly sketch a tilted almond shape for the eye outline.",
-      "Add a thick upper lash line and a thinner lower line.",
-      "Draw a large iris circle that touches the top lash.",
-      "Place one big highlight and one small highlight in the iris.",
-      "Shade the iris darker at the top and lighter at the bottom."
+      "Schets lichtjes een gekantelde amandelvorm als oogomtrek.",
+      "Voeg een dikke bovenste wimperenstreep en een dunnere onderste lijn toe.",
+      "Teken een grote iriscirkel die de bovenste wimperstreep raakt.",
+      "Plaats één grote highlight en één kleine highlight in de iris.",
+      "Arceer de iris donkerder aan de bovenkant en lichter aan de onderkant."
     ],
-    "tips": "Keep the highlights clean and unshaded to make the eye feel alive."
+    "tips": "Houd de highlights schoon en ongearceerd zodat het oog levendig aanvoelt."
   },
   {
     "id": "face-anime-nose-mouth",
-    "title": "Draw a Simple Manga Nose and Mouth",
+    "title": "Teken een eenvoudige manga-neus en -mond",
     "category": "faces",
     "difficulty": "easy",
-    "materials": [
-      "pencil",
-      "paper"
-    ],
-    "referenceImage": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22%23fff9f0%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%2224%22%20font-family%3D%22Arial%22%20font-size%3D%2214%22%20fill%3D%22%237c2d12%22%20text-anchor%3D%22middle%22%20font-weight%3D%22bold%22%3EDraw%20a%20Manga%20Nose%20and%20Mouth%3C/text%3E%0A%20%20%3C%21--%20face%20oval%20--%3E%0A%20%20%3Cellipse%20cx%3D%22200%22%20cy%3D%22135%22%20rx%3D%2290%22%20ry%3D%22108%22%20fill%3D%22%23fde8d0%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3C%21--%20center%20guideline%20--%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%2250%22%20x2%3D%22200%22%20y2%3D%22230%22%20stroke%3D%22%23bbb%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%225%2C4%22/%3E%0A%20%20%3C%21--%20horizontal%20guide%20--%3E%0A%20%20%3Cline%20x1%3D%22120%22%20y1%3D%22130%22%20x2%3D%22280%22%20y2%3D%22130%22%20stroke%3D%22%23bbb%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%225%2C4%22/%3E%0A%20%20%3C%21--%20nose%3A%20tiny%20angled%20mark%20--%3E%0A%20%20%3Cpath%20d%3D%22M196%20140%20L204%20140%20L206%20148%22%20fill%3D%22none%22%20stroke%3D%22%23b97b5a%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%0A%20%20%3C%21--%20mouth%3A%20short%20curved%20line%20--%3E%0A%20%20%3Cpath%20d%3D%22M182%20168%20Q200%20178%20218%20168%22%20fill%3D%22none%22%20stroke%3D%22%23c0605a%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20lower%20lip%20hint%20--%3E%0A%20%20%3Cpath%20d%3D%22M188%20174%20Q200%20179%20212%20174%22%20fill%3D%22none%22%20stroke%3D%22%23c0605a%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20opacity%3D%220.6%22/%3E%0A%3C/svg%3E",
+    "materials": ["potlood", "papier"],
+    "referenceImage": null,
     "steps": [
-      "Mark a short center guideline for face symmetry.",
-      "Place a tiny angled mark for the nose near the face center.",
-      "Draw a short curved line for a relaxed manga smile.",
-      "Add a second subtle line under the mouth for the lower lip hint.",
-      "Erase extra guide marks so the features stay clean and minimal."
+      "Markeer een korte middelste hulplijn voor symmetrie in het gezicht.",
+      "Zet een klein schuin streepje voor de neus, dicht bij het midden van het gezicht.",
+      "Teken een korte gebogen lijn voor een ontspannen manga-glimlach.",
+      "Voeg een tweede subtiele lijn onder de mond toe als hint van de onderlip.",
+      "Wis de extra hulplijnen uit zodat de gelaatstrekken strak en minimaal blijven."
     ],
-    "tips": "In manga style, less detail on the nose and mouth often looks better."
+    "tips": "In manga-stijl ziet minder detail aan neus en mond er vaak beter uit."
   },
   {
     "id": "character-chibi-head",
-    "title": "Draw a Chibi Head",
+    "title": "Teken een chibi-hoofd",
     "category": "characters",
     "difficulty": "easy",
-    "materials": [
-      "pencil",
-      "eraser",
-      "paper"
-    ],
-    "referenceImage": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22%23fff9f0%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%2224%22%20font-family%3D%22Arial%22%20font-size%3D%2214%22%20fill%3D%22%237c2d12%22%20text-anchor%3D%22middle%22%20font-weight%3D%22bold%22%3EDraw%20a%20Chibi%20Head%3C/text%3E%0A%20%20%3C%21--%20cranium%20big%20circle%20--%3E%0A%20%20%3Ccircle%20cx%3D%22200%22%20cy%3D%22115%22%20r%3D%2288%22%20fill%3D%22%23fde8d0%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3C%21--%20small%20jaw%20--%3E%0A%20%20%3Cpath%20d%3D%22M145%20165%20Q200%20205%20255%20165%22%20fill%3D%22%23fde8d0%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3C%21--%20guide%20lines%20--%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%2260%22%20x2%3D%22200%22%20y2%3D%22200%22%20stroke%3D%22%23bbb%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%225%2C4%22/%3E%0A%20%20%3Cline%20x1%3D%22130%22%20y1%3D%22130%22%20x2%3D%22270%22%20y2%3D%22130%22%20stroke%3D%22%23bbb%22%20stroke-width%3D%221%22%20stroke-dasharray%3D%225%2C4%22/%3E%0A%20%20%3C%21--%20large%20eyes%20--%3E%0A%20%20%3Cellipse%20cx%3D%22170%22%20cy%3D%22138%22%20rx%3D%2226%22%20ry%3D%2228%22%20fill%3D%22%23fff%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3Cellipse%20cx%3D%22230%22%20cy%3D%22138%22%20rx%3D%2226%22%20ry%3D%2228%22%20fill%3D%22%23fff%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3Ccircle%20cx%3D%22170%22%20cy%3D%22140%22%20r%3D%2216%22%20fill%3D%22%234a7fc1%22/%3E%0A%20%20%3Ccircle%20cx%3D%22230%22%20cy%3D%22140%22%20r%3D%2216%22%20fill%3D%22%234a7fc1%22/%3E%0A%20%20%3Ccircle%20cx%3D%22170%22%20cy%3D%22140%22%20r%3D%229%22%20fill%3D%22%23111%22/%3E%0A%20%20%3Ccircle%20cx%3D%22230%22%20cy%3D%22140%22%20r%3D%229%22%20fill%3D%22%23111%22/%3E%0A%20%20%3Cellipse%20cx%3D%22162%22%20cy%3D%22134%22%20rx%3D%227%22%20ry%3D%225%22%20fill%3D%22%23fff%22/%3E%0A%20%20%3Cellipse%20cx%3D%22222%22%20cy%3D%22134%22%20rx%3D%227%22%20ry%3D%225%22%20fill%3D%22%23fff%22/%3E%0A%20%20%3C%21--%20tiny%20mouth%20--%3E%0A%20%20%3Cpath%20d%3D%22M192%20168%20Q200%20174%20208%20168%22%20fill%3D%22none%22%20stroke%3D%22%23c0605a%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20bangs%20--%3E%0A%20%20%3Cpath%20d%3D%22M118%2096%20Q140%2048%20200%2042%20Q260%2048%20282%2096%22%20fill%3D%22%235a3a1a%22%20stroke%3D%22%235a3a1a%22%20stroke-width%3D%220%22/%3E%0A%20%20%3Cpath%20d%3D%22M118%2096%20L128%20130%20L148%2098%20L158%20128%20L176%2094%22%20fill%3D%22none%22%20stroke%3D%22%235a3a1a%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M282%2096%20L272%20130%20L252%2098%20L242%20128%20L224%2094%22%20fill%3D%22none%22%20stroke%3D%22%235a3a1a%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%0A%3C/svg%3E",
+    "materials": ["potlood", "gum", "papier"],
+    "referenceImage": null,
     "steps": [
-      "Sketch a large circle for the cranium.",
-      "Add a small jaw shape under the circle for a cute face base.",
-      "Draw a vertical and horizontal guideline cross on the face.",
-      "Place oversized eyes below the horizontal guide and a tiny mouth.",
-      "Add simple bangs and erase guide lines."
+      "Schets een grote cirkel voor de schedel.",
+      "Voeg een kleine kaakvorm onder de cirkel toe als schattige gezichtsbasis.",
+      "Teken een verticale en horizontale hulplijn als kruis over het gezicht.",
+      "Plaats oversized ogen onder de horizontale lijn en een piepkleine mond.",
+      "Voeg eenvoudige pony toe en wis de hulplijnen uit."
     ],
-    "tips": "A chibi head usually looks best when the eyes take up lots of space."
+    "tips": "Een chibi-hoofd ziet er het beste uit als de ogen veel ruimte innemen."
   },
   {
     "id": "character-chibi-body",
-    "title": "Draw a Chibi Body Pose",
+    "title": "Teken een chibi-lichaamshouding",
     "category": "characters",
-    "difficulty": "medium",
-    "materials": [
-      "pencil",
-      "eraser",
-      "paper"
-    ],
-    "referenceImage": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22%23fff9f0%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%2222%22%20font-family%3D%22Arial%22%20font-size%3D%2214%22%20fill%3D%22%237c2d12%22%20text-anchor%3D%22middle%22%20font-weight%3D%22bold%22%3EDraw%20a%20Chibi%20Body%20Pose%3C/text%3E%0A%20%20%3C%21--%20head%20--%3E%0A%20%20%3Ccircle%20cx%3D%22200%22%20cy%3D%2255%22%20r%3D%2238%22%20fill%3D%22%23fde8d0%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3C%21--%20eyes%20simple%20dots%20--%3E%0A%20%20%3Cellipse%20cx%3D%22188%22%20cy%3D%2257%22%20rx%3D%227%22%20ry%3D%228%22%20fill%3D%22%23111%22/%3E%0A%20%20%3Cellipse%20cx%3D%22212%22%20cy%3D%2257%22%20rx%3D%227%22%20ry%3D%228%22%20fill%3D%22%23111%22/%3E%0A%20%20%3Cellipse%20cx%3D%22185%22%20cy%3D%2254%22%20rx%3D%223%22%20ry%3D%222%22%20fill%3D%22%23fff%22/%3E%0A%20%20%3Cellipse%20cx%3D%22209%22%20cy%3D%2254%22%20rx%3D%223%22%20ry%3D%222%22%20fill%3D%22%23fff%22/%3E%0A%20%20%3C%21--%20bangs%20--%3E%0A%20%20%3Cpath%20d%3D%22M168%2040%20Q200%2020%20232%2040%22%20fill%3D%22%235a3a1a%22/%3E%0A%20%20%3C%21--%20torso%20bean%20--%3E%0A%20%20%3Cellipse%20cx%3D%22200%22%20cy%3D%22128%22%20rx%3D%2234%22%20ry%3D%2240%22%20fill%3D%22%237ec8e3%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3C%21--%20left%20arm%20up%20--%3E%0A%20%20%3Cpath%20d%3D%22M168%20108%20Q140%2080%20134%2058%22%20fill%3D%22none%22%20stroke%3D%22%23fde8d0%22%20stroke-width%3D%2218%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M168%20108%20Q140%2080%20134%2058%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20sleeve%20end%20left%20--%3E%0A%20%20%3Ccircle%20cx%3D%22134%22%20cy%3D%2258%22%20r%3D%2212%22%20fill%3D%22%23fde8d0%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3C%21--%20right%20arm%20down%20--%3E%0A%20%20%3Cpath%20d%3D%22M232%20108%20Q256%20120%20260%20142%22%20fill%3D%22none%22%20stroke%3D%22%23fde8d0%22%20stroke-width%3D%2218%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M232%20108%20Q256%20120%20260%20142%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Ccircle%20cx%3D%22260%22%20cy%3D%22142%22%20r%3D%2212%22%20fill%3D%22%23fde8d0%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3C%21--%20left%20leg%20forward%20--%3E%0A%20%20%3Cpath%20d%3D%22M184%20166%20Q172%20196%20164%20220%22%20fill%3D%22none%22%20stroke%3D%22%23fde8d0%22%20stroke-width%3D%2218%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M184%20166%20Q172%20196%20164%20220%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20boot%20left%20--%3E%0A%20%20%3Cellipse%20cx%3D%22162%22%20cy%3D%22222%22%20rx%3D%2218%22%20ry%3D%2210%22%20fill%3D%22%235a3a1a%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3C%21--%20right%20leg%20--%3E%0A%20%20%3Cpath%20d%3D%22M216%20166%20Q228%20196%20234%20220%22%20fill%3D%22none%22%20stroke%3D%22%23fde8d0%22%20stroke-width%3D%2218%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M216%20166%20Q228%20196%20234%20220%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cellipse%20cx%3D%22235%22%20cy%3D%22222%22%20rx%3D%2218%22%20ry%3D%2210%22%20fill%3D%22%235a3a1a%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%3C/svg%3E",
+    "difficulty": "easy",
+    "materials": ["potlood", "gum", "papier"],
+    "referenceImage": null,
     "steps": [
-      "Draw a short bean-like torso under your chibi head.",
-      "Add simple tube arms and legs with rounded ends.",
-      "Pose one arm up and one leg forward for motion.",
-      "Sketch oversized sleeves and short boots.",
-      "Refine the silhouette with confident final lines."
+      "Teken een kort boonvormig lichaam onder je chibi-hoofd.",
+      "Voeg eenvoudige buisvormige armen en benen toe met afgeronde uiteinden.",
+      "Zet één arm omhoog en één been naar voren voor beweging.",
+      "Schets oversized mouwen en korte laarzen.",
+      "Verfijn het silhouet met zelfverzekerde eindlijnen."
     ],
-    "tips": "Keep limbs short and chunky to preserve the chibi look."
+    "tips": "Houd de ledematen kort en dik om de chibi-look te bewaren."
   },
   {
     "id": "character-manga-hair",
-    "title": "Draw Manga Hair Strands",
+    "title": "Teken manga-haarstrepen",
     "category": "characters",
     "difficulty": "medium",
-    "materials": [
-      "pencil",
-      "black pen",
-      "paper"
-    ],
-    "referenceImage": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22%23fff9f0%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%2222%22%20font-family%3D%22Arial%22%20font-size%3D%2214%22%20fill%3D%22%237c2d12%22%20text-anchor%3D%22middle%22%20font-weight%3D%22bold%22%3EDraw%20Manga%20Hair%20Strands%3C/text%3E%0A%20%20%3C%21--%20head%20base%20--%3E%0A%20%20%3Cellipse%20cx%3D%22200%22%20cy%3D%22140%22%20rx%3D%2290%22%20ry%3D%22105%22%20fill%3D%22%23fde8d0%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3C%21--%20hair%20helmet%20shape%20--%3E%0A%20%20%3Cpath%20d%3D%22M116%20110%20Q118%2028%20200%2018%20Q282%2028%20284%20110%20Q280%2050%20260%2040%20Q230%2020%20200%2018%20Q170%2020%20140%2040%20Q120%2050%20116%20110Z%22%20fill%3D%22%233a1a08%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3C%21--%20strand%20group%20left%20--%3E%0A%20%20%3Cpath%20d%3D%22M116%20110%20L108%20148%20L122%20136%20L118%20170%20L136%20152%22%20fill%3D%22none%22%20stroke%3D%22%233a1a08%22%20stroke-width%3D%2220%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M116%20110%20L108%20148%20L122%20136%20L118%20170%20L136%20152%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%0A%20%20%3C%21--%20strand%20group%20right%20--%3E%0A%20%20%3Cpath%20d%3D%22M284%20110%20L292%20148%20L278%20136%20L282%20170%20L264%20152%22%20fill%3D%22none%22%20stroke%3D%22%233a1a08%22%20stroke-width%3D%2220%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M284%20110%20L292%20148%20L278%20136%20L282%20170%20L264%20152%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%0A%20%20%3C%21--%20bang%20strands%20--%3E%0A%20%20%3Cpath%20d%3D%22M140%2040%20L130%2090%20L150%2070%20L148%20100%20L168%2076%22%20fill%3D%22none%22%20stroke%3D%22%233a1a08%22%20stroke-width%3D%2216%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M140%2040%20L130%2090%20L150%2070%20L148%20100%20L168%2076%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M200%2018%20L198%2080%20L210%2060%20L208%2090%20L220%2072%22%20fill%3D%22none%22%20stroke%3D%22%233a1a08%22%20stroke-width%3D%2216%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M200%2018%20L198%2080%20L210%2060%20L208%2090%20L220%2072%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M260%2040%20L270%2090%20L250%2070%20L252%20100%20L232%2076%22%20fill%3D%22none%22%20stroke%3D%22%233a1a08%22%20stroke-width%3D%2216%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M260%2040%20L270%2090%20L250%2070%20L252%20100%20L232%2076%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20inner%20detail%20lines%20--%3E%0A%20%20%3Cpath%20d%3D%22M160%2030%20L158%2070%20M200%2020%20L200%2060%20M240%2030%20L242%2070%22%20stroke%3D%22%236b3a18%22%20stroke-width%3D%221.5%22%20opacity%3D%220.6%22/%3E%0A%20%20%3C%21--%20eyes%20--%3E%0A%20%20%3Cellipse%20cx%3D%22170%22%20cy%3D%22148%22%20rx%3D%2218%22%20ry%3D%2220%22%20fill%3D%22%23fff%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22/%3E%0A%20%20%3Cellipse%20cx%3D%22230%22%20cy%3D%22148%22%20rx%3D%2218%22%20ry%3D%2220%22%20fill%3D%22%23fff%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22/%3E%0A%20%20%3Ccircle%20cx%3D%22170%22%20cy%3D%22150%22%20r%3D%2211%22%20fill%3D%22%234a6090%22/%3E%0A%20%20%3Ccircle%20cx%3D%22230%22%20cy%3D%22150%22%20r%3D%2211%22%20fill%3D%22%234a6090%22/%3E%0A%20%20%3Ccircle%20cx%3D%22170%22%20cy%3D%22150%22%20r%3D%226%22%20fill%3D%22%23111%22/%3E%0A%20%20%3Ccircle%20cx%3D%22230%22%20cy%3D%22150%22%20r%3D%226%22%20fill%3D%22%23111%22/%3E%0A%20%20%3Cellipse%20cx%3D%22164%22%20cy%3D%22145%22%20rx%3D%225%22%20ry%3D%224%22%20fill%3D%22%23fff%22/%3E%0A%20%20%3Cellipse%20cx%3D%22224%22%20cy%3D%22145%22%20rx%3D%225%22%20ry%3D%224%22%20fill%3D%22%23fff%22/%3E%0A%3C/svg%3E",
+    "materials": ["potlood", "zwarte pen", "papier"],
+    "referenceImage": null,
     "steps": [
-      "Block in the full hair shape like a helmet around the head.",
-      "Split the shape into big strand groups starting at the part.",
-      "Add pointed strand tips with quick curved strokes.",
-      "Ink the outer silhouette thicker than inner strand lines.",
-      "Shade under bangs and near roots to create depth."
+      "Schets de volledige haarvorm als een helm om het hoofd.",
+      "Verdeel de vorm in grote plukgroepen, beginnend bij de scheiding.",
+      "Voeg puntige pluktips toe met snelle gebogen streken.",
+      "Zet de buitenste omtrek dikker dan de binnenste pluklijnen.",
+      "Arceer onder de pony en bij de wortels voor diepte."
     ],
-    "tips": "Think in big strand groups first, then add a few detail lines."
+    "tips": "Denk eerst in grote plukgroepen en voeg daarna een paar detaillijnen toe."
   },
   {
     "id": "scene-speed-lines",
-    "title": "Draw Manga Speed Lines",
+    "title": "Teken manga-bewegingslijnen",
     "category": "scenes",
     "difficulty": "easy",
-    "materials": [
-      "pencil",
-      "ruler",
-      "black marker"
-    ],
-    "referenceImage": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22%23fff9f0%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%2222%22%20font-family%3D%22Arial%22%20font-size%3D%2214%22%20fill%3D%22%237c2d12%22%20text-anchor%3D%22middle%22%20font-weight%3D%22bold%22%3EDraw%20Manga%20Speed%20Lines%3C/text%3E%0A%20%20%3C%21--%20speed%20lines%20radiating%20from%20center%20focal%20point%20--%3E%0A%20%20%3C%21--%20dense%20lines%20--%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%220%22%20y2%3D%220%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%2250%22%20y2%3D%220%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22110%22%20y2%3D%220%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22170%22%20y2%3D%220%22%20stroke%3D%22%23111%22%20stroke-width%3D%221%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22230%22%20y2%3D%220%22%20stroke%3D%22%23111%22%20stroke-width%3D%221%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22290%22%20y2%3D%220%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22350%22%20y2%3D%220%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22400%22%20y2%3D%220%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22400%22%20y2%3D%2250%22%20stroke%3D%22%23111%22%20stroke-width%3D%221%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22400%22%20y2%3D%22110%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22400%22%20y2%3D%22140%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22400%22%20y2%3D%22200%22%20stroke%3D%22%23111%22%20stroke-width%3D%221%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22400%22%20y2%3D%22250%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22350%22%20y2%3D%22250%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22290%22%20y2%3D%22250%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22230%22%20y2%3D%22250%22%20stroke%3D%22%23111%22%20stroke-width%3D%221%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22170%22%20y2%3D%22250%22%20stroke%3D%22%23111%22%20stroke-width%3D%221%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%22110%22%20y2%3D%22250%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%2250%22%20y2%3D%22250%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%220%22%20y2%3D%22250%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%220%22%20y2%3D%22200%22%20stroke%3D%22%23111%22%20stroke-width%3D%221%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%220%22%20y2%3D%22140%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%220%22%20y2%3D%22110%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22125%22%20x2%3D%220%22%20y2%3D%2250%22%20stroke%3D%22%23111%22%20stroke-width%3D%221%22/%3E%0A%20%20%3C%21--%20focal%20dot%20--%3E%0A%20%20%3Ccircle%20cx%3D%22200%22%20cy%3D%22125%22%20r%3D%228%22%20fill%3D%22%23111%22/%3E%0A%20%20%3C%21--%20character%20silhouette%20in%20center%20%28clear%20area%29%20--%3E%0A%20%20%3Cellipse%20cx%3D%22200%22%20cy%3D%2290%22%20rx%3D%2222%22%20ry%3D%2226%22%20fill%3D%22%23fff9f0%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3Cpath%20d%3D%22M182%20116%20L182%20160%20M218%20116%20L218%20160%20M182%20136%20L218%20136%20M182%20160%20L172%20185%20M218%20160%20L228%20185%22%20stroke%3D%22%23fff9f0%22%20stroke-width%3D%2214%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M182%20116%20L182%20160%20M218%20116%20L218%20160%20M182%20136%20L218%20136%20M182%20160%20L172%20185%20M218%20160%20L228%20185%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20focal%20label%20--%3E%0A%20%20%3Ccircle%20cx%3D%22200%22%20cy%3D%22125%22%20r%3D%224%22%20fill%3D%22%23e03030%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%22200%22%20font-family%3D%22Arial%22%20font-size%3D%2211%22%20fill%3D%22%237c2d12%22%20text-anchor%3D%22middle%22%3Efocal%20point%3C/text%3E%0A%3C/svg%3E",
+    "materials": ["potlood", "liniaal", "zwarte stift"],
+    "referenceImage": null,
     "steps": [
-      "Pick a focal point where the action is happening.",
-      "Use a ruler to draw long lines radiating from that point.",
-      "Vary spacing so some areas are dense and others open.",
-      "Thicken a few key lines to increase impact.",
-      "Leave the character area clearer so the figure stays readable."
+      "Kies een focuspunt waar de actie plaatsvindt.",
+      "Gebruik een liniaal om lange lijnen vanuit dat punt te trekken.",
+      "Varieer de tussenruimte zodat sommige zones dicht zijn en andere open.",
+      "Maak een paar sleutellijnen dikker om meer impact te geven.",
+      "Houd het gebied rondom het personage vrijer zodat de figuur leesbaar blijft."
     ],
-    "tips": "Speed lines work best when they support the character, not cover them."
+    "tips": "Bewegingslijnen werken het beste wanneer ze het personage ondersteunen en niet overdekken."
   },
   {
     "id": "scene-action-panel",
-    "title": "Draw a Manga Action Panel",
+    "title": "Teken een manga-actiepaneel",
     "category": "scenes",
     "difficulty": "hard",
-    "materials": [
-      "pencil",
-      "fineliner",
-      "paper"
-    ],
-    "referenceImage": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22%23fff9f0%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%2222%22%20font-family%3D%22Arial%22%20font-size%3D%2214%22%20fill%3D%22%237c2d12%22%20text-anchor%3D%22middle%22%20font-weight%3D%22bold%22%3EDraw%20a%20Manga%20Action%20Panel%3C/text%3E%0A%20%20%3C%21--%20tilted%20panel%20border%20--%3E%0A%20%20%3Cpolygon%20points%3D%2230%2C40%20370%2C20%20380%2C230%2020%2C240%22%20fill%3D%22%23fff%22%20stroke%3D%22%23111%22%20stroke-width%3D%225%22/%3E%0A%20%20%3C%21--%20speed%20lines%20background%20--%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22130%22%20x2%3D%2230%22%20y2%3D%2240%22%20stroke%3D%22%23ddd%22%20stroke-width%3D%221.5%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22130%22%20x2%3D%2280%22%20y2%3D%2220%22%20stroke%3D%22%23ddd%22%20stroke-width%3D%221%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22130%22%20x2%3D%22150%22%20y2%3D%2220%22%20stroke%3D%22%23ddd%22%20stroke-width%3D%221.5%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22130%22%20x2%3D%22250%22%20y2%3D%2220%22%20stroke%3D%22%23ddd%22%20stroke-width%3D%221%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22130%22%20x2%3D%22320%22%20y2%3D%2220%22%20stroke%3D%22%23ddd%22%20stroke-width%3D%221.5%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22130%22%20x2%3D%22370%22%20y2%3D%2220%22%20stroke%3D%22%23ddd%22%20stroke-width%3D%221%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22130%22%20x2%3D%22380%22%20y2%3D%2280%22%20stroke%3D%22%23ddd%22%20stroke-width%3D%221.5%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22130%22%20x2%3D%22380%22%20y2%3D%22180%22%20stroke%3D%22%23ddd%22%20stroke-width%3D%221%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22130%22%20x2%3D%2220%22%20y2%3D%2280%22%20stroke%3D%22%23ddd%22%20stroke-width%3D%221.5%22/%3E%0A%20%20%3Cline%20x1%3D%22200%22%20y1%3D%22130%22%20x2%3D%2220%22%20y2%3D%22180%22%20stroke%3D%22%23ddd%22%20stroke-width%3D%221%22/%3E%0A%20%20%3C%21--%20line-of-action%20--%3E%0A%20%20%3Cpath%20d%3D%22M100%20220%20Q190%2080%20300%2050%22%20fill%3D%22none%22%20stroke%3D%22%23e07020%22%20stroke-width%3D%222.5%22%20stroke-dasharray%3D%228%2C4%22/%3E%0A%20%20%3C%21--%20character%20over%20line-of-action%3A%20head%20--%3E%0A%20%20%3Ccircle%20cx%3D%22288%22%20cy%3D%2260%22%20r%3D%2224%22%20fill%3D%22%23fde8d0%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3C%21--%20hair%20spikes%20--%3E%0A%20%20%3Cpath%20d%3D%22M270%2046%20L262%2028%20L278%2042%20M290%2040%20L292%2020%20L300%2040%20M308%2046%20L320%2028%20L308%2044%22%20fill%3D%22%233a1a08%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22/%3E%0A%20%20%3C%21--%20eyes%20--%3E%0A%20%20%3Cellipse%20cx%3D%22280%22%20cy%3D%2262%22%20rx%3D%228%22%20ry%3D%229%22%20fill%3D%22%23fff%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22/%3E%0A%20%20%3Cellipse%20cx%3D%22298%22%20cy%3D%2260%22%20rx%3D%228%22%20ry%3D%229%22%20fill%3D%22%23fff%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22/%3E%0A%20%20%3Ccircle%20cx%3D%22280%22%20cy%3D%2263%22%20r%3D%225%22%20fill%3D%22%23111%22/%3E%0A%20%20%3Ccircle%20cx%3D%22298%22%20cy%3D%2261%22%20r%3D%225%22%20fill%3D%22%23111%22/%3E%0A%20%20%3C%21--%20determined%20brows%20--%3E%0A%20%20%3Cpath%20d%3D%22M272%2053%20L288%2050%20M291%2049%20L307%2051%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20body%20leaning%20forward%20--%3E%0A%20%20%3Cpath%20d%3D%22M288%2084%20L270%20130%20M270%20130%20L250%20170%20M270%20130%20L310%20165%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M288%2084%20L240%20100%20M288%2084%20L330%2088%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20impact%20burst%20--%3E%0A%20%20%3Cpath%20d%3D%22M130%20170%20L116%20150%20L136%20158%20L128%20136%20L148%20150%20L144%20126%20L160%20144%20L162%20120%20L174%20140%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22%20stroke-linejoin%3D%22round%22/%3E%0A%20%20%3C%21--%20debris%20marks%20--%3E%0A%20%20%3Cpath%20d%3D%22M80%20140%20L90%20132%20M70%20155%20L84%20150%20M88%20168%20L96%20158%22%20stroke%3D%22%23111%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22/%3E%0A%3C/svg%3E",
+    "materials": ["potlood", "fineliner", "papier"],
+    "referenceImage": null,
     "steps": [
-      "Sketch a tilted panel border for dramatic composition.",
-      "Place a dynamic stick figure line-of-action through the frame.",
-      "Build the character over that line with rough body forms.",
-      "Add impact effects like burst shapes and debris marks.",
-      "Ink final contours and keep the background minimal for focus."
+      "Schets een scheve paneelrand voor een dramatische compositie.",
+      "Plaats een dynamische actielijn als stokfiguur door het kader.",
+      "Bouw het personage over die lijn op met ruwe lichaamsvormen.",
+      "Voeg impacteffecten toe zoals uitbarstingvormen en puin.",
+      "Teken definitieve contouren in inkt en houd de achtergrond minimaal voor focus."
     ],
-    "tips": "A strong line-of-action makes even simple poses feel energetic."
+    "tips": "Een sterke actielijn maakt zelfs eenvoudige poses energiek."
   },
   {
     "id": "face-expression-sheet",
-    "title": "Draw Manga Expressions Sheet",
+    "title": "Teken een manga-expressieblad",
     "category": "faces",
     "difficulty": "hard",
-    "materials": [
-      "pencil",
-      "eraser",
-      "paper"
-    ],
-    "referenceImage": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20400%20250%22%3E%0A%20%20%3Crect%20width%3D%22400%22%20height%3D%22250%22%20fill%3D%22%23fff9f0%22/%3E%0A%20%20%3Ctext%20x%3D%22200%22%20y%3D%2220%22%20font-family%3D%22Arial%22%20font-size%3D%2214%22%20fill%3D%22%237c2d12%22%20text-anchor%3D%22middle%22%20font-weight%3D%22bold%22%3EDraw%20Manga%20Expressions%20Sheet%3C/text%3E%0A%20%20%3C%21--%204%20faces%20grid%20--%3E%0A%20%20%3C%21--%20HAPPY%20top-left%20--%3E%0A%20%20%3Cellipse%20cx%3D%2295%22%20cy%3D%22110%22%20rx%3D%2270%22%20ry%3D%2280%22%20fill%3D%22%23fde8d0%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22/%3E%0A%20%20%3C%21--%20happy%20eyes%20curved%20--%3E%0A%20%20%3Cpath%20d%3D%22M68%20100%20Q80%2090%2092%20100%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M100%20100%20Q112%2090%20124%20100%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20happy%20brows%20--%3E%0A%20%20%3Cpath%20d%3D%22M64%2090%20Q80%2082%2094%2088%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M98%2088%20Q112%2082%20126%2090%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20happy%20mouth%20big%20smile%20--%3E%0A%20%20%3Cpath%20d%3D%22M72%20128%20Q95%20148%20118%20128%22%20fill%3D%22none%22%20stroke%3D%22%23c0605a%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M72%20128%20Q80%20134%2095%20134%20Q110%20134%20118%20128%22%20fill%3D%22%23e08080%22%20stroke%3D%22none%22/%3E%0A%20%20%3Ctext%20x%3D%2295%22%20y%3D%22188%22%20font-family%3D%22Arial%22%20font-size%3D%2212%22%20fill%3D%22%237c2d12%22%20text-anchor%3D%22middle%22%3EHappy%3C/text%3E%0A%0A%20%20%3C%21--%20ANGRY%20top-right%20--%3E%0A%20%20%3Cellipse%20cx%3D%22305%22%20cy%3D%22110%22%20rx%3D%2270%22%20ry%3D%2280%22%20fill%3D%22%23fde8d0%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22/%3E%0A%20%20%3C%21--%20angry%20eyes%20--%3E%0A%20%20%3Cellipse%20cx%3D%22280%22%20cy%3D%22108%22%20rx%3D%2216%22%20ry%3D%2216%22%20fill%3D%22%23fff%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22/%3E%0A%20%20%3Cellipse%20cx%3D%22330%22%20cy%3D%22108%22%20rx%3D%2216%22%20ry%3D%2216%22%20fill%3D%22%23fff%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22/%3E%0A%20%20%3Ccircle%20cx%3D%22280%22%20cy%3D%22110%22%20r%3D%229%22%20fill%3D%22%23111%22/%3E%0A%20%20%3Ccircle%20cx%3D%22330%22%20cy%3D%22110%22%20r%3D%229%22%20fill%3D%22%23111%22/%3E%0A%20%20%3C%21--%20angry%20brows%20angled%20down%20center%20--%3E%0A%20%20%3Cpath%20d%3D%22M262%2090%20Q278%2098%20294%2090%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M316%2090%20Q332%2098%20348%2090%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20angry%20lines%20on%20forehead%20--%3E%0A%20%20%3Cpath%20d%3D%22M290%2076%20L296%2084%20M304%2076%20L300%2086%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20angry%20mouth%20frown%20--%3E%0A%20%20%3Cpath%20d%3D%22M282%20140%20Q305%20128%20328%20140%22%20fill%3D%22none%22%20stroke%3D%22%23c0605a%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Ctext%20x%3D%22305%22%20y%3D%22188%22%20font-family%3D%22Arial%22%20font-size%3D%2212%22%20fill%3D%22%237c2d12%22%20text-anchor%3D%22middle%22%3EAngry%3C/text%3E%0A%0A%20%20%3C%21--%20SAD%20bottom-left%20%E2%80%94%20shift%20down%20slightly%20--%3E%0A%20%20%3Cellipse%20cx%3D%2295%22%20cy%3D%22220%22%20rx%3D%2270%22%20ry%3D%2278%22%20fill%3D%22%23fde8d0%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22/%3E%0A%20%20%3C%21--%20sad%20eyes%20droopy%20--%3E%0A%20%20%3Cellipse%20cx%3D%2270%22%20cy%3D%22215%22%20rx%3D%2216%22%20ry%3D%2216%22%20fill%3D%22%23fff%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22/%3E%0A%20%20%3Cellipse%20cx%3D%22120%22%20cy%3D%22215%22%20rx%3D%2216%22%20ry%3D%2216%22%20fill%3D%22%23fff%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22/%3E%0A%20%20%3Ccircle%20cx%3D%2270%22%20cy%3D%22218%22%20r%3D%229%22%20fill%3D%22%23111%22/%3E%0A%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22218%22%20r%3D%229%22%20fill%3D%22%23111%22/%3E%0A%20%20%3C%21--%20sad%20brows%20droopy%20outward%20--%3E%0A%20%20%3Cpath%20d%3D%22M54%20200%20Q70%20208%2086%20202%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M104%20202%20Q120%20208%20136%20200%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20tear%20drop%20left%20--%3E%0A%20%20%3Cellipse%20cx%3D%2262%22%20cy%3D%22230%22%20rx%3D%224%22%20ry%3D%227%22%20fill%3D%22%237ec8e3%22/%3E%0A%20%20%3C%21--%20sad%20mouth%20down%20--%3E%0A%20%20%3Cpath%20d%3D%22M72%20248%20Q95%20238%20118%20248%22%20fill%3D%22none%22%20stroke%3D%22%23c0605a%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Ctext%20x%3D%2295%22%20y%3D%22290%22%20font-family%3D%22Arial%22%20font-size%3D%2212%22%20fill%3D%22%237c2d12%22%20text-anchor%3D%22middle%22%3ESad%3C/text%3E%0A%0A%20%20%3C%21--%20SURPRISED%20bottom-right%20--%3E%0A%20%20%3Cellipse%20cx%3D%22305%22%20cy%3D%22220%22%20rx%3D%2270%22%20ry%3D%2278%22%20fill%3D%22%23fde8d0%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22/%3E%0A%20%20%3C%21--%20surprised%20eyes%20big%20wide%20--%3E%0A%20%20%3Cellipse%20cx%3D%22280%22%20cy%3D%22214%22%20rx%3D%2220%22%20ry%3D%2222%22%20fill%3D%22%23fff%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3Cellipse%20cx%3D%22330%22%20cy%3D%22214%22%20rx%3D%2220%22%20ry%3D%2222%22%20fill%3D%22%23fff%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22/%3E%0A%20%20%3Ccircle%20cx%3D%22280%22%20cy%3D%22216%22%20r%3D%2212%22%20fill%3D%22%23111%22/%3E%0A%20%20%3Ccircle%20cx%3D%22330%22%20cy%3D%22216%22%20r%3D%2212%22%20fill%3D%22%23111%22/%3E%0A%20%20%3Cellipse%20cx%3D%22274%22%20cy%3D%22208%22%20rx%3D%226%22%20ry%3D%224%22%20fill%3D%22%23fff%22/%3E%0A%20%20%3Cellipse%20cx%3D%22324%22%20cy%3D%22208%22%20rx%3D%226%22%20ry%3D%224%22%20fill%3D%22%23fff%22/%3E%0A%20%20%3C%21--%20surprised%20brows%20arched%20high%20--%3E%0A%20%20%3Cpath%20d%3D%22M262%20192%20Q280%20178%20298%20192%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cpath%20d%3D%22M312%20192%20Q330%20178%20348%20192%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20open%20oval%20mouth%20--%3E%0A%20%20%3Cellipse%20cx%3D%22305%22%20cy%3D%22248%22%20rx%3D%2218%22%20ry%3D%2212%22%20fill%3D%22%23c06060%22%20stroke%3D%22%23111%22%20stroke-width%3D%222.5%22/%3E%0A%20%20%3Ctext%20x%3D%22305%22%20y%3D%22290%22%20font-family%3D%22Arial%22%20font-size%3D%2212%22%20fill%3D%22%237c2d12%22%20text-anchor%3D%22middle%22%3ESurprised%3C/text%3E%0A%3C/svg%3E",
+    "materials": ["potlood", "gum", "papier"],
+    "referenceImage": null,
     "steps": [
-      "Draw four matching face circles in a grid.",
-      "Add the same eye placement guides in each face.",
-      "Draw happy, angry, sad, and surprised eyebrow shapes.",
-      "Change eye and mouth shapes to match each emotion.",
-      "Clean lines and label each expression for practice review."
+      "Teken vier overeenkomende gezichtscirkels in een raster.",
+      "Voeg dezelfde oogplaatsingsgidsen toe in elk gezicht.",
+      "Teken blije, boze, verdrietige en verbaasde wenkbrauwvormen.",
+      "Verander oog- en mondvormen om elke emotie uit te drukken.",
+      "Maak de lijnen netjes en benoem elke expressie voor oefenoverzicht."
     ],
-    "tips": "Keep the head structure consistent so emotion changes are easier to compare."
+    "tips": "Houd de gezichtsstructuur consistent zodat emotionele veranderingen makkelijk te vergelijken zijn."
   }
 ]
