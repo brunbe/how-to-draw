@@ -131,6 +131,12 @@ button {
   background: #fff7ed;
 }
 
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 700px) {
   .step-card {
     grid-template-columns: 1fr;
@@ -139,11 +145,5 @@ button {
   .step-visual {
     width: 100%;
     height: auto;
-  }
-}
-
-@media (max-width: 900px) {
-  .layout {
-    grid-template-columns: 1fr;
   }
 }

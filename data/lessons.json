@@ -5,7 +5,7 @@
     "category": "faces",
     "difficulty": "easy",
     "materials": ["pencil", "eraser", "paper"],
-    "referenceImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800",
+    "referenceImage": "https://images.unsplash.com/photo-1493244040629-496f6d136cc3?w=800",
     "steps": [
       "Lightly sketch a tilted almond shape for the eye outline.",
       "Add a thick upper lash line and a thinner lower line.",
@@ -112,7 +112,7 @@
     "tips": "A strong line-of-action makes even simple poses feel energetic."
   },
   {
-    "id": "scene-expression-sheet",
+    "id": "face-expression-sheet",
     "title": "Draw Manga Expressions Sheet",
     "category": "faces",
     "difficulty": "hard",
