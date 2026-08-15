@@ -1,4 +1,14 @@
 const STORAGE_KEY = "howToDrawState";
+const CATEGORY_LABELS = {
+  animals: "Dieren",
+  objects: "Voorwerpen",
+  characters: "Personages",
+};
+const DIFFICULTY_LABELS = {
+  easy: "Makkelijk",
+  medium: "Gemiddeld",
+  hard: "Moeilijk",
+};
 
 const state = {
   lessons: [],
@@ -85,7 +95,7 @@ function applyFilters() {
 function renderLessonList() {
   els.lessonList.innerHTML = "";
   if (state.filteredLessons.length === 0) {
-    els.lessonList.innerHTML = "<p>No lessons match your filters yet.</p>";
+    els.lessonList.innerHTML = "<p>Er zijn nog geen lessen die bij je filters passen.</p>";
     return;
   }
 
@@ -97,14 +107,14 @@ function renderLessonList() {
     title.textContent = `${lesson.title} ${done}`.trim();
 
     const meta = document.createElement("p");
-    meta.textContent = `${lesson.category} • ${lesson.difficulty}`;
+    meta.textContent = `${CATEGORY_LABELS[lesson.category] || lesson.category} • ${DIFFICULTY_LABELS[lesson.difficulty] || lesson.difficulty}`;
 
     const stepCount = document.createElement("p");
-    stepCount.textContent = `${lesson.steps.length} steps`;
+    stepCount.textContent = `${lesson.steps.length} stappen`;
 
     const openButton = document.createElement("button");
     openButton.dataset.lessonId = lesson.id;
-    openButton.textContent = "Open lesson";
+    openButton.textContent = "Les openen";
 
     wrapper.appendChild(title);
     wrapper.appendChild(meta);
@@ -133,8 +143,8 @@ function selectLesson(lessonId) {
 function renderSelectedLesson() {
   const lesson = getLesson(state.selectedLessonId);
   if (!lesson) {
-    els.lessonTitle.textContent = "Select a lesson";
-    els.lessonMeta.textContent = "Pick a lesson to begin.";
+    els.lessonTitle.textContent = "Kies een les";
+    els.lessonMeta.textContent = "Kies een les om te beginnen.";
     els.lessonMaterials.textContent = "";
     els.lessonSteps.innerHTML = "";
     els.lessonTips.textContent = "";
@@ -147,13 +157,13 @@ function renderSelectedLesson() {
 
   const currentStep = state.stepProgress[lesson.id] || 0;
   els.lessonTitle.textContent = lesson.title;
-  els.lessonMeta.textContent = `Category: ${lesson.category} | Difficulty: ${lesson.difficulty}`;
-  els.lessonMaterials.textContent = `Materials: ${lesson.materials.join(", ")}`;
-  els.lessonTips.textContent = `Practice tip: ${lesson.tips}`;
+  els.lessonMeta.textContent = `Categorie: ${CATEGORY_LABELS[lesson.category] || lesson.category} | Moeilijkheid: ${DIFFICULTY_LABELS[lesson.difficulty] || lesson.difficulty}`;
+  els.lessonMaterials.textContent = `Materialen: ${lesson.materials.join(", ")}`;
+  els.lessonTips.textContent = `Tekentip: ${lesson.tips}`;
 
   if (lesson.referenceImage) {
     els.lessonImage.src = lesson.referenceImage;
-    els.lessonImage.alt = `${lesson.title} reference image`;
+    els.lessonImage.alt = `${lesson.title} referentieafbeelding`;
     els.lessonImage.hidden = false;
   } else {
     els.lessonImage.hidden = true;
@@ -165,7 +175,7 @@ function renderSelectedLesson() {
     li.textContent = step;
     if (index < currentStep) {
       li.classList.add("completed-step");
-      li.setAttribute("aria-description", "completed");
+      li.setAttribute("aria-description", "voltooid");
     }
     if (index === currentStep) {
       li.classList.add("current-step");
@@ -176,7 +186,7 @@ function renderSelectedLesson() {
 
   const favorite = state.favorites.includes(lesson.id);
   const isCompleted = currentStep >= lesson.steps.length;
-  els.favoriteButton.textContent = favorite ? "Remove favorite" : "Add to favorites";
+  els.favoriteButton.textContent = favorite ? "Verwijderen uit favorieten" : "Toevoegen aan favorieten";
   els.favoriteButton.disabled = false;
   els.completeStepButton.disabled = isCompleted;
   els.completeLessonButton.disabled = isCompleted;
@@ -256,10 +266,10 @@ function toggleFavorite() {
 function badgeText() {
   const count = state.completedLessons.length;
   const badges = [];
-  if (count >= 1) badges.push("First Sketch");
-  if (count >= 5) badges.push("Practice Builder");
-  if (count >= 10) badges.push("Drawing Explorer");
-  return badges.length ? badges.join(", ") : "None yet";
+  if (count >= 1) badges.push("Eerste schets");
+  if (count >= 5) badges.push("Oefenbouwer");
+  if (count >= 10) badges.push("Tekenverkenner");
+  return badges.length ? badges.join(", ") : "Nog geen";
 }
 
 function nextRecommendation() {
@@ -271,19 +281,19 @@ function nextRecommendation() {
     });
 
   const preferred = unfinished.find((lesson) => state.favorites.includes(lesson.id));
-  return (preferred || unfinished[0] || {}).title || "All lessons completed";
+  return (preferred || unfinished[0] || {}).title || "Alle lessen voltooid";
 }
 
 function renderQuickList(targetEl, ids) {
   if (!ids.length) {
-    targetEl.textContent = "None yet";
+    targetEl.textContent = "Nog geen";
     return;
   }
   const names = ids
     .map((id) => getLesson(id))
     .filter(Boolean)
     .map((lesson) => lesson.title);
-  targetEl.textContent = names.length ? names.join(", ") : "None yet";
+  targetEl.textContent = names.length ? names.join(", ") : "Nog geen";
 }
 
 function renderSummary() {
@@ -326,8 +336,8 @@ async function init() {
     }
     state.lessons = await response.json();
   } catch (error) {
-    els.lessonList.textContent = "Could not load lessons. Please refresh and try again.";
-    els.lessonMeta.textContent = "Lesson data unavailable.";
+    els.lessonList.textContent = "Lessen konden niet worden geladen. Vernieuw de pagina en probeer het opnieuw.";
+    els.lessonMeta.textContent = "Lesgegevens niet beschikbaar.";
     console.error(error);
     return;
   }
