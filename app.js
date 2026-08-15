@@ -105,10 +105,9 @@ function renderLessonList() {
     const hasHair = text.includes("haar") || text.includes("pony") || text.includes("pluk");
     const hasAction =
       text.includes("actie") ||
-      text.includes("beweging") ||
+      text.includes("bewegingslijn") ||
       text.includes("uitbarsting") ||
-      text.includes("impact") ||
-      text.includes("lijn");
+      text.includes("impact");
     const hasBody = text.includes("lichaam") || text.includes("arm") || text.includes("been") || text.includes("houding");
     const STEP_ACCENT_COLUMNS = 5;
     const STEP_ACCENT_START_X = 16;
