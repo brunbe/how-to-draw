@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to Draw</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>How to Draw</h1>
+      <p>Step-by-step drawing lessons for kids and beginners.</p>
+    </header>
+
+    <main>
+      <section class="panel controls" aria-label="Lesson controls">
+        <label>
+          Search
+          <input id="searchInput" type="search" placeholder="Try cat, rocket, panda..." />
+        </label>
+
+        <label>
+          Category
+          <select id="categoryFilter">
+            <option value="all">All categories</option>
+            <option value="animals">Animals</option>
+            <option value="objects">Objects</option>
+            <option value="characters">Characters</option>
+          </select>
+        </label>
+
+        <label>
+          Difficulty
+          <select id="difficultyFilter">
+            <option value="all">All levels</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="panel" aria-label="Learning summary">
+        <h2>Learning summary</h2>
+        <div class="summary-grid">
+          <p>Lessons completed: <strong id="completedCount">0</strong></p>
+          <p>Current streak: <strong id="streakCount">0</strong> day(s)</p>
+          <p>Badges: <strong id="badgeList">None yet</strong></p>
+          <p>Next suggestion: <strong id="recommendation">Choose a lesson</strong></p>
+        </div>
+      </section>
+
+      <section class="layout">
+        <section class="panel" aria-label="Lesson library">
+          <h2>Lesson library</h2>
+          <div id="lessonList" class="lesson-list"></div>
+        </section>
+
+        <section class="panel" aria-label="Lesson details">
+          <h2 id="lessonTitle">Select a lesson</h2>
+          <p id="lessonMeta">Pick a lesson to begin.</p>
+          <p id="lessonMaterials"></p>
+          <img id="lessonImage" alt="Reference" hidden />
+          <ol id="lessonSteps"></ol>
+          <p id="lessonTips"></p>
+          <div class="actions">
+            <button id="favoriteButton" disabled>Add to favorites</button>
+            <button id="completeStepButton" disabled>Mark current step complete</button>
+            <button id="completeLessonButton" disabled>Finish lesson</button>
+          </div>
+        </section>
+      </section>
+
+      <section class="panel" aria-label="Favorites and recently viewed">
+        <h2>Quick access</h2>
+        <p><strong>Favorites:</strong> <span id="favoritesList">None yet</span></p>
+        <p><strong>Recently viewed:</strong> <span id="recentList">None yet</span></p>
+      </section>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
