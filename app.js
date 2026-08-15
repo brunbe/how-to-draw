@@ -1,8 +1,8 @@
 const STORAGE_KEY = "howToDrawState";
 const CATEGORY_LABELS = {
-  animals: "Dieren",
-  objects: "Voorwerpen",
+  faces: "Gezichten",
   characters: "Personages",
+  scenes: "Scènes",
 };
 const DIFFICULTY_LABELS = {
   easy: "Makkelijk",
@@ -99,6 +99,79 @@ function renderLessonList() {
     return;
   }
 
+  function stepVisualMarkup(instruction, stepNumber) {
+    const text = instruction.toLowerCase();
+    const hasEye = text.includes("eye") || text.includes("iris");
+    const hasHair = text.includes("hair") || text.includes("bang");
+    const hasAction =
+      text.includes("action") ||
+      text.includes("speed line") ||
+      text.includes("radiating") ||
+      text.includes("burst") ||
+      text.includes("impact");
+    const hasBody = text.includes("body") || text.includes("arm") || text.includes("leg") || text.includes("pose");
+    const STEP_ACCENT_COLUMNS = 5;
+    const STEP_ACCENT_START_X = 16;
+    const STEP_ACCENT_GAP_X = 32;
+    const accentX = STEP_ACCENT_START_X + ((stepNumber - 1) % STEP_ACCENT_COLUMNS) * STEP_ACCENT_GAP_X;
+    const withAccent = (base) => `${base}<circle cx="${accentX}" cy="20" r="4" fill="#7c2d12"/>`;
+
+    if (hasEye) {
+      return withAccent(`
+        <ellipse cx="88" cy="56" rx="46" ry="24" fill="none" stroke="#222" stroke-width="3"/>
+        <circle cx="88" cy="56" r="14" fill="none" stroke="#222" stroke-width="3"/>
+        <path d="M42 56 Q88 20 134 56" fill="none" stroke="#222" stroke-width="4"/>
+        <circle cx="82" cy="50" r="5" fill="#fff"/>`);
+    }
+
+    if (hasHair) {
+      return withAccent(`
+        <path d="M30 30 Q88 18 146 30" fill="#e5e7eb" stroke="none"/>
+        <path d="M30 30 Q88 8 146 30" fill="none" stroke="#222" stroke-width="3"/>
+        <path d="M38 34 L54 88 L68 42 L82 94 L98 42 L114 88 L130 36" fill="none" stroke="#222" stroke-width="3"/>
+        `);
+    }
+
+    if (hasAction) {
+      return withAccent(`
+        <circle cx="88" cy="56" r="10" fill="#222"/>
+        <path d="M88 56 L10 16 M88 56 L18 56 M88 56 L10 98 M88 56 L166 16 M88 56 L158 56 M88 56 L166 98" stroke="#222" stroke-width="3"/>
+        <path d="M88 56 L40 8 M88 56 L136 8 M88 56 L40 104 M88 56 L136 104" stroke="#222" stroke-width="2"/>`);
+    }
+
+    if (hasBody) {
+      return withAccent(`
+        <circle cx="88" cy="24" r="14" fill="none" stroke="#222" stroke-width="3"/>
+        <path d="M88 38 L88 78 M88 48 L56 64 M88 48 L120 64 M88 78 L62 104 M88 78 L114 102" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/>`);
+    }
+
+    return withAccent(`
+      <rect x="28" y="20" width="120" height="72" rx="10" fill="none" stroke="#222" stroke-width="3"/>
+      <path d="M36 82 L64 52 L86 66 L112 38 L140 62" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="58" cy="40" r="6" fill="none" stroke="#222" stroke-width="2"/>`);
+  }
+
+  function escapeXml(text) {
+    return text
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&apos;");
+  }
+
+  function generateStepVisual(stepInstruction, stepNumber) {
+    const label = escapeXml(`STEP ${stepNumber}`);
+    const body = stepVisualMarkup(stepInstruction, stepNumber);
+    return `data:image/svg+xml,${encodeURIComponent(
+      `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 112">
+        <rect width="176" height="112" rx="12" fill="#fff7ed" stroke="#f59e0b" stroke-width="2"/>
+        ${body}
+        <text x="10" y="106" font-family="Arial, sans-serif" font-size="12" fill="#7c2d12">${label}</text>
+      </svg>`,
+    )}`;
+  }
+
   for (const lesson of state.filteredLessons) {
     const wrapper = document.createElement("article");
     wrapper.className = "lesson-card";
@@ -171,8 +244,22 @@ function renderSelectedLesson() {
 
   els.lessonSteps.innerHTML = "";
   lesson.steps.forEach((step, index) => {
+    const instruction = String(step);
+    const visualImage = generateStepVisual(instruction, index + 1);
     const li = document.createElement("li");
-    li.textContent = step;
+    const card = document.createElement("div");
+    card.className = "step-card";
+    const img = document.createElement("img");
+    img.className = "step-visual";
+    img.src = visualImage;
+    img.alt = `Step ${index + 1}: ${instruction}`;
+    img.width = 176;
+    img.height = 112;
+    const text = document.createElement("p");
+    text.textContent = instruction;
+    card.appendChild(img);
+    card.appendChild(text);
+    li.appendChild(card);
     if (index < currentStep) {
       li.classList.add("completed-step");
       li.setAttribute("aria-description", "voltooid");

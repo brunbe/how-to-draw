@@ -1,194 +1,130 @@
 [
   {
-    "id": "animal-cat",
-    "title": "Teken een Kat",
-    "category": "animals",
+    "id": "face-manga-eye",
+    "title": "Draw a Manga Eye",
+    "category": "faces",
     "difficulty": "easy",
-    "materials": ["potlood", "gum", "papier"],
-    "referenceImage": "https://images.unsplash.com/photo-1511044568932-338cba0ad803?w=800",
+    "materials": ["pencil", "eraser", "paper"],
+    "referenceImage": "https://images.unsplash.com/photo-1493244040629-496f6d136cc3?w=800",
     "steps": [
-      "Schets een cirkel voor de kop en een ovaal voor het lichaam.",
-      "Voeg driehoekige oren en lichte hulplijnen voor het gezicht toe.",
-      "Teken eenvoudige ogen, een neus, een mond en snorharen.",
-      "Voeg poten en een gebogen staart toe.",
-      "Maak de definitieve lijnen donkerder en gum de hulplijnen weg."
+      "Lightly sketch a tilted almond shape for the eye outline.",
+      "Add a thick upper lash line and a thinner lower line.",
+      "Draw a large iris circle that touches the top lash.",
+      "Place one big highlight and one small highlight in the iris.",
+      "Shade the iris darker at the top and lighter at the bottom."
     ],
-    "tips": "Houd je eerste lijnen licht, zodat je ze makkelijk kunt uitgummen."
+    "tips": "Keep the highlights clean and unshaded to make the eye feel alive."
   },
   {
-    "id": "animal-fish",
-    "title": "Teken een Vis",
-    "category": "animals",
+    "id": "face-anime-nose-mouth",
+    "title": "Draw a Simple Manga Nose and Mouth",
+    "category": "faces",
     "difficulty": "easy",
-    "materials": ["potlood", "kleurpotloden", "papier"],
-    "referenceImage": "https://images.unsplash.com/photo-1524704796725-9fc3044a58b2?w=800",
+    "materials": ["pencil", "paper"],
+    "referenceImage": "https://images.unsplash.com/photo-1512317049220-d3c6fcaf6681?w=800",
     "steps": [
-      "Teken een liggend ovaal voor het lichaam van de vis.",
-      "Voeg een driehoekige staart toe die aan het ovaal vastzit.",
-      "Schets een boven- en ondervin.",
-      "Teken een klein oog en een gebogen glimlach.",
-      "Voeg schubben toe met lichte, herhalende boogjes."
+      "Mark a short center guideline for face symmetry.",
+      "Place a tiny angled mark for the nose near the face center.",
+      "Draw a short curved line for a relaxed manga smile.",
+      "Add a second subtle line under the mouth for the lower lip hint.",
+      "Erase extra guide marks so the features stay clean and minimal."
     ],
-    "tips": "Herhaal eenvoudige vormen voor schubben in plaats van perfecte details na te streven."
+    "tips": "In manga style, less detail on the nose and mouth often looks better."
   },
   {
-    "id": "animal-panda",
-    "title": "Teken een Panda",
-    "category": "animals",
+    "id": "character-chibi-head",
+    "title": "Draw a Chibi Head",
+    "category": "characters",
+    "difficulty": "easy",
+    "materials": ["pencil", "eraser", "paper"],
+    "referenceImage": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800",
+    "steps": [
+      "Sketch a large circle for the cranium.",
+      "Add a small jaw shape under the circle for a cute face base.",
+      "Draw a vertical and horizontal guideline cross on the face.",
+      "Place oversized eyes below the horizontal guide and a tiny mouth.",
+      "Add simple bangs and erase guide lines."
+    ],
+    "tips": "A chibi head usually looks best when the eyes take up lots of space."
+  },
+  {
+    "id": "character-chibi-body",
+    "title": "Draw a Chibi Body Pose",
+    "category": "characters",
     "difficulty": "medium",
-    "materials": ["potlood", "zwarte stift", "papier"],
-    "referenceImage": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800",
+    "materials": ["pencil", "eraser", "paper"],
+    "referenceImage": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800",
     "steps": [
-      "Teken een grote cirkel voor de kop van de panda.",
-      "Voeg twee ronde oren en een kleine ovale snuit toe.",
-      "Teken grote oogvlekken en plaats de ogen erin.",
-      "Schets een rond lichaam en korte ledematen.",
-      "Kleur de oren, oogvlekken en ledematen donker in."
+      "Draw a short bean-like torso under your chibi head.",
+      "Add simple tube arms and legs with rounded ends.",
+      "Pose one arm up and one leg forward for motion.",
+      "Sketch oversized sleeves and short boots.",
+      "Refine the silhouette with confident final lines."
     ],
-    "tips": "Gebruik zachte schaduwen om een pluizige vachtstructuur te maken."
+    "tips": "Keep limbs short and chunky to preserve the chibi look."
   },
   {
-    "id": "object-house",
-    "title": "Teken een Eenvoudig Huis",
-    "category": "objects",
-    "difficulty": "easy",
-    "materials": ["potlood", "liniaal", "papier"],
-    "referenceImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800",
-    "steps": [
-      "Teken een vierkant voor de basisvorm van het huis.",
-      "Voeg bovenop een driehoekig dak toe.",
-      "Schets een deur in het midden en twee ramen.",
-      "Teken daklijnen en een schoorsteen.",
-      "Voeg grond, een pad en eenvoudige details toe."
-    ],
-    "tips": "Gebruik een liniaal als je nette rechte lijnen wilt."
-  },
-  {
-    "id": "object-rocket",
-    "title": "Teken een Raket",
-    "category": "objects",
+    "id": "character-manga-hair",
+    "title": "Draw Manga Hair Strands",
+    "category": "characters",
     "difficulty": "medium",
-    "materials": ["potlood", "gum", "stiften"],
-    "referenceImage": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800",
+    "materials": ["pencil", "black pen", "paper"],
+    "referenceImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800",
     "steps": [
-      "Teken een hoge capsulevorm voor het lichaam van de raket.",
-      "Voeg zijvinnen toe bij de onderkant.",
-      "Schets een rond raam bij de bovenkant.",
-      "Teken vlamvormen onder de raket.",
-      "Voeg sterren of wolken toe voor een leuke achtergrond."
+      "Block in the full hair shape like a helmet around the head.",
+      "Split the shape into big strand groups starting at the part.",
+      "Add pointed strand tips with quick curved strokes.",
+      "Ink the outer silhouette thicker than inner strand lines.",
+      "Shade under bangs and near roots to create depth."
     ],
-    "tips": "Spiegel de linker- en rechtervin om de raket in balans te houden."
+    "tips": "Think in big strand groups first, then add a few detail lines."
   },
   {
-    "id": "object-bicycle",
-    "title": "Teken een Fiets",
-    "category": "objects",
+    "id": "scene-speed-lines",
+    "title": "Draw Manga Speed Lines",
+    "category": "scenes",
+    "difficulty": "easy",
+    "materials": ["pencil", "ruler", "black marker"],
+    "referenceImage": "https://images.unsplash.com/photo-1493612276216-ee3925520721?w=800",
+    "steps": [
+      "Pick a focal point where the action is happening.",
+      "Use a ruler to draw long lines radiating from that point.",
+      "Vary spacing so some areas are dense and others open.",
+      "Thicken a few key lines to increase impact.",
+      "Leave the character area clearer so the figure stays readable."
+    ],
+    "tips": "Speed lines work best when they support the character, not cover them."
+  },
+  {
+    "id": "scene-action-panel",
+    "title": "Draw a Manga Action Panel",
+    "category": "scenes",
     "difficulty": "hard",
-    "materials": ["potlood", "gum", "papier"],
-    "referenceImage": "https://images.unsplash.com/photo-1471506480208-91b3a4cc78be?w=800",
+    "materials": ["pencil", "fineliner", "paper"],
+    "referenceImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800",
     "steps": [
-      "Teken twee gelijke cirkels voor de wielen.",
-      "Verbind de wielen met een driehoekig frame.",
-      "Voeg stuur, zadel en voorvork toe.",
-      "Schets pedalen en het kettinggedeelte.",
-      "Werk af met spaken en gum extra hulplijnen weg."
+      "Sketch a tilted panel border for dramatic composition.",
+      "Place a dynamic stick figure line-of-action through the frame.",
+      "Build the character over that line with rough body forms.",
+      "Add impact effects like burst shapes and debris marks.",
+      "Ink final contours and keep the background minimal for focus."
     ],
-    "tips": "Meet eerst de afstand tussen de wielen voor betere verhoudingen."
+    "tips": "A strong line-of-action makes even simple poses feel energetic."
   },
   {
-    "id": "character-robot",
-    "title": "Teken een Vriendelijke Robot",
-    "category": "characters",
-    "difficulty": "easy",
-    "materials": ["potlood", "stiften", "papier"],
-    "referenceImage": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800",
-    "steps": [
-      "Teken een vierkante kop en een rechthoekig lichaam.",
-      "Voeg ronde ogen en een eenvoudige glimlach toe.",
-      "Schets buisvormige armen en benen.",
-      "Voeg een antenne en knoppen op de borst toe.",
-      "Omlijn en kleur metalen delen in."
-    ],
-    "tips": "Gebruik herhaalde geometrische vormen om het robotontwerp consistent te houden."
-  },
-  {
-    "id": "character-dragon",
-    "title": "Teken een Stripdraak",
-    "category": "characters",
+    "id": "face-expression-sheet",
+    "title": "Draw Manga Expressions Sheet",
+    "category": "faces",
     "difficulty": "hard",
-    "materials": ["potlood", "gum", "kleurpotloden"],
-    "referenceImage": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800",
+    "materials": ["pencil", "eraser", "paper"],
+    "referenceImage": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800",
     "steps": [
-      "Schets een gebogen lijn voor de ruggengraat van de draak.",
-      "Voeg een ronde kop met hoorns en snuit toe.",
-      "Teken een vol lichaam en vier korte poten.",
-      "Voeg vleugels toe met driehoekachtige vliezen.",
-      "Werk af met staartstekels en lichte schaduw."
+      "Draw four matching face circles in a grid.",
+      "Add the same eye placement guides in each face.",
+      "Draw happy, angry, sad, and surprised eyebrow shapes.",
+      "Change eye and mouth shapes to match each emotion.",
+      "Clean lines and label each expression for practice review."
     ],
-    "tips": "Houd het lichaam eerst eenvoudig en voeg fantasiedetails pas op het einde toe."
-  },
-  {
-    "id": "character-astronaut",
-    "title": "Teken een Astronaut",
-    "category": "characters",
-    "difficulty": "medium",
-    "materials": ["potlood", "zwarte pen", "papier"],
-    "referenceImage": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800",
-    "steps": [
-      "Teken een ronde helm en de vorm van het vizier.",
-      "Schets een klein ruimtepak onder de helm.",
-      "Voeg handschoenen, laarzen en een rugzak toe.",
-      "Teken naden en paneeldetails op het pak.",
-      "Voeg sterren en een maanachtergrond toe."
-    ],
-    "tips": "Maak de hoeken van het pak rond zodat het gewatteerd lijkt."
-  },
-  {
-    "id": "animal-butterfly",
-    "title": "Teken een Vlinder",
-    "category": "animals",
-    "difficulty": "medium",
-    "materials": ["potlood", "gum", "kleurpotloden"],
-    "referenceImage": "https://images.unsplash.com/photo-1472994252676-9ad2c5e6a4e6?w=800",
-    "steps": [
-      "Teken een dunne lichaamslijn met een kleine kop.",
-      "Schets twee grote bovenvleugels.",
-      "Voeg twee kleinere ondervleugels toe.",
-      "Teken spiegelende patronen aan beide kanten.",
-      "Kleur met felle kleurovergangen en stippen."
-    ],
-    "tips": "Vouw de vleugelindeling in gedachten doormidden om beide kanten symmetrisch te houden."
-  },
-  {
-    "id": "object-mug",
-    "title": "Teken een Koffiemok",
-    "category": "objects",
-    "difficulty": "easy",
-    "materials": ["potlood", "papier"],
-    "referenceImage": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800",
-    "steps": [
-      "Teken een ovaal voor de opening van de mok.",
-      "Trek twee verticale zijkanten naar beneden.",
-      "Sluit de onderkant met een gebogen lijn.",
-      "Voeg aan één kant een C-vormig oor toe.",
-      "Teken stoomlijnen en eenvoudige schaduw."
-    ],
-    "tips": "Houd de boven- en ondercurve parallel voor een realistische mokvorm."
-  },
-  {
-    "id": "character-fox",
-    "title": "Teken een Schattige Vos",
-    "category": "characters",
-    "difficulty": "medium",
-    "materials": ["potlood", "oranje stift", "papier"],
-    "referenceImage": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=800",
-    "steps": [
-      "Teken een afgeronde driehoek voor de kop van de vos.",
-      "Voeg puntige oren en pluizige wanglijnen toe.",
-      "Schets amandelvormige ogen en een kleine neus.",
-      "Teken een zittend lichaam en een pluizige staart.",
-      "Kleur oranje en laat de staartpunt wit."
-    ],
-    "tips": "Gebruik korte streken rond de wangen en staart voor een pluizige textuur."
+    "tips": "Keep the head structure consistent so emotion changes are easier to compare."
   }
 ]

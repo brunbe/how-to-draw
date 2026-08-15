@@ -1,15 +1,15 @@
 # how-to-draw
 
-A beginner-friendly web app that teaches kids and new artists how to draw with step-by-step lessons.
+A beginner-friendly web app that teaches new artists how to draw manga with visual step-by-step lessons.
 
 ## Core scope
-- **Target audience:** kids and beginners
-- **Subjects:** animals, objects, and characters
-- **Output format:** ordered text instructions plus optional reference images
+- **Target audience:** manga beginners
+- **Subjects:** manga faces, characters, and action scenes
+- **Output format:** ordered steps with generated visual panels plus optional reference images
 
 ## MVP user flow
 1. Choose a lesson from the library.
-2. View guided, ordered steps with materials and tips.
+2. View guided, ordered steps with visual panels, materials, and tips.
 3. Mark steps complete as you draw.
 4. Finish lesson and record completion progress.
 
@@ -32,7 +32,7 @@ The app includes a curated starter set of lessons across:
 - Medium
 - Hard
 
-Categories include animals, objects, and characters.
+Categories include faces, characters, and scenes.
 
 ## Implemented personalization
 - Search by keywords
